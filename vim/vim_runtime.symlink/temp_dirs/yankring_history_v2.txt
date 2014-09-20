@@ -1,0 +1,100 @@
+" ============================================================================" Netrw Directory Listing                                        (netrw v140)"   scp://site/"   Sorted by      name"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec" ============================================================================.././.cache/.emacs.d/.ssh/x/.bash_history.bash_logout.bashrc.mysql_history.mysql_history.TMP.profile.viminfonewfile.mantestingtesting~,V
+sam@,v
+AWESOEM_FACE,v
+bromanecho ,V
+,V
+lol,V
+,V
+" Wordcount in Airline for LaTeX,V
+function! LatexListen(...)  autocmd BufWritePost * call LatexWordUpdate()endfunctionfunction! LatexWordUpdate(...)                                                                     if &filetype == 'tex'      let w:airline_section_c = 'Words: ' . system('detex ' . bufname('%') . ' | wc -w')    endif                                                                                 endfunctioncall airline#add_statusline_func('LatexListen')autocmd FileType tex call LatexListen(),V
+function LatexUpdate()  call a:1.add_section('StatusLine', 'all')  "let g:airline_section_d = airline#section#create_right(['words ' . system('detex ' . bufname('%') . ' | wc -w ')])  return 1endfunction,V
+function! LatexWords(...)  call airline#add_statusline_func('LatexUpdate')endfunction,V
+      let g:airline_variable_referenced_in_statusline = 'foo',V
+LatexUpdate,v
+LatexWordUpdate,v
+MyPlugin,v
+bufferexpand,v
+expandbuf,v
+bufexpand,v
+epxandbuf,v
+trim(system('date')),v
+sup,v
+%f,v
+      let w:airline_section_a = 'MyPlugin'                                                ,V
+      let w:airline_section_b = '%f'                                                      ,V
+bind < resize-pane -L 10bind > resize-pane -R 10bind - resize-pane -D 10bind + resize-pane -U 10,V
+      let w:airline_section_c = '%{MyPlugin#function()}'                                  ,V
+MyPluginFileType,v
+),v
+<Plug>PeepOpenp,v
+  echom 'ran',V
+  let g:airline_section_d = airline#section#create_right(['words ' . system('detex ' . bufname('%') . ' | wc -w ')]),V
+  let:g:,V
+function,V
+ ,v
+| sed "s/ *$//\"'),v
+  call AirlineRefresh(),V
+Update,v
+Latex,v
+LatexWordcount,v
+call LatexWordcount(),V
+function! LatexListen()  autocmd BufWritePost * LatexUpdateendfunction,V
+function! LatexListen()  autocmd BufWritePost * LatexUpdateendfunctionfunction! LatexUpdate(),V
+  autocmd BufWritePost * ,V
+!run_tests.sh <afile>,v
+",v
+  echo 'detex' . bufname('%') . ' | foobar',V
+pwd,v
+:call ,v
+  let temp = :callkjkj,V
+'$(pwd)',v
+'sup',v
+  let g:airline_section_z = airline#section#create_right('sup'),V
+$(pwd),v
+yo,v
+    set shiftwidth=2,V
+    set tabstop=2    set softtabstop=2,V
+javascript,v
+setAltPrefs,v
+showWordcount,v
+highlighting ,v
+Syntax ,v
+mathmx,v
+Since the dawn of time, farts, also buts.,V
+hey there world, bro, broski,V
+\usepackage{mathptmx},V
+\rhead{\today}\cfoot{Page \thepage of \pageref{LastPage} / Words: \thewords\ },V
+ \StopSearching},V
+\newenvironment{counted}{%  \setcounter{words}{0}  \SearchList!{wordcount}{\stepcounter{words}}    {a?,b?,c?,d?,e?,f?,g?,h?,i?,j?,k?,l?,m?,    n?,o?,p?,q?,r?,s?,t?,u?,v?,w?,x?,y?,z?}  \UndoBoundary{'}  \SearchOrder{p;}}{% ,v
+\end{counted},V
+\begin{counted},V
+\lhead{Sam Doiron}\chead{Assignment One}\rhead{\today}\cfoot{Page \thepage of \pageref{LastPage} / Words: \thewords\ },V
+refpage,v
+g,v
+\,v
+pagref,v
+10,v
+Sup,v
+lfoot,v
+cfoot,v
+Page \thepage / \pageref{LastPage},v
+lastpage,v
+\usepackage{lastpage},V
+\emph{\centerline{The Title of my Essay}},V
+strong,v
+bold,v
+\maketitle,V
+margin=1.5in,v
+\usepackage[margin=0.5in]{geometry},V
+top=0.5in, left=1.5in, right=1.5in, bottom=0.5in,v
+top=0.5in, left=1.5in, bottom=0.5in, right=1.5in,v
+geomrtry,v
+\renewcommand{\footrulewidth}{0.4pt},V
+\renewcommand{\headrulewidth}{0.4pt},V
+\pagestyle{fancy},V
+},v
+{LastPage,v
+pageref,v
+center of the footer!,v
+\lipsum[1-20],V
+\usepackage{lipsum}%% a garbage package you don't need except to create examples.,V

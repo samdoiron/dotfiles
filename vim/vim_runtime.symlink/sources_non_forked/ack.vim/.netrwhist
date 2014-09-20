@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/samdoiron/bin/z.sh'
+let g:netrw_dirhist_2='/Users/samdoiron/Documents/Programming/Ruby/network/config'
+let g:netrw_dirhist_3='/Users/samdoiron/Documents/Programming/Ruby/network/app/controllers'
+let g:netrw_dirhist_4='/Users/samdoiron/.vim_runtime/sources_non_forked'

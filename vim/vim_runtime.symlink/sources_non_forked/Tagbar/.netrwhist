@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/samdoiron/Documents/Programming'
+let g:netrw_dirhist_2='/Users/samdoiron/.vim_runtime/sources_non_forked/vim-snipmate/doc'
+let g:netrw_dirhist_3='/Users/samdoiron/.vim_runtime/sources_non_forked/vim-snipmate/after'
+let g:netrw_dirhist_4='/Users/samdoiron/Documents/Programming/C++/Lemmy/assembler'
+let g:netrw_dirhist_5='/Users/samdoiron/Documents/Programming/websociety/wds/tutorials'
+let g:netrw_dirhist_6='scp://site/'
